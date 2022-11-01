@@ -3,6 +3,7 @@
     display: grid;
     grid-auto-flow: column;
     margin-top: 5px;
+    border: 3px solid black;
 }
 
 .score-board div {
@@ -11,9 +12,9 @@
     font-size: 2em;
     padding: 5px;
     font-weight: bold;
-    background-color: #4392F1;
+    background-color: green;
 }
 
 .score-board div:first-child {
-    background-color: #CD493A;
+    background-color: orange;
 }
