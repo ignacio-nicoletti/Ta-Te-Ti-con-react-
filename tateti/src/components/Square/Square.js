@@ -1,6 +1,6 @@
 import "./Square.css"
 import classNames from 'classnames';
-const Square = ({ value, onClick, turn }) => {
+const Square = ({ value, onClick, turn,winner}) => {
 
 
     const handleClick = () => {
@@ -12,6 +12,7 @@ const Square = ({ value, onClick, turn }) => {
 
         square: true,
         [`square--${value}`]: value!==null,
+        winner: winner,
     });
 
     return (
